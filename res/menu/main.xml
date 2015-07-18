@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bazinga.app.MainActivity" >
+            
+             <!-- Cloud Control  -->
+            <item
+                android:id="@+id/cloud_control1"
+                android:title="Transactions History"/>
+
+            <!-- Wi-Fi control -->
+            <item
+                android:id="@+id/wifi_control1"
+                android:title="Favorites"/>
+
+</menu>

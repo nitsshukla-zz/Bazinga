@@ -1,0 +1,20 @@
+Laundry:LNDY
+Plumber:PLMB
+Electrician:ELEC
+Carpenter:CRPN
+Pet Care:PETC
+Pest Control:PSTC
+Car Wash:CARW
+Computer Service:CMPS
+Puja:PUJA
+Cakes:CAKE
+Cook:COOK
+Driving School:DRVS
+Tax Consultants:TXCS
+Notary & Agreements:NTRY
+Driver:DRVR
+Home Cleaning Services:HEPR
+Painting Services:PANT
+Rent Car:RCAR
+Maid:MAID
+Other:OTHR
