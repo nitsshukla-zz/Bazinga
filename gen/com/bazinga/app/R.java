@@ -1907,6 +1907,12 @@ containing a value of this type.
         public static final int ic_launcher=0x7f02003e;
     }
     public static final class id {
+        public static final int Age=0x7f05005c;
+        public static final int JobType=0x7f050054;
+        public static final int Mob=0x7f05005a;
+        public static final int Name=0x7f050052;
+        public static final int Pay=0x7f050058;
+        public static final int Pin=0x7f050056;
         public static final int action_bar=0x7f050040;
         public static final int action_bar_activity_content=0x7f05001d;
         public static final int action_bar_container=0x7f05003f;
@@ -1920,13 +1926,14 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f05003d;
         public static final int action_mode_bar_stub=0x7f05003c;
         public static final int action_mode_close_button=0x7f050025;
+        public static final int action_settings=0x7f05005f;
         public static final int activity_chooser_view_content=0x7f050026;
         public static final int alertTitle=0x7f050030;
         public static final int always=0x7f050012;
         public static final int beginning=0x7f050017;
         public static final int buttonPanel=0x7f050036;
         public static final int checkbox=0x7f050038;
-        public static final int cloud_control1=0x7f050050;
+        public static final int cloud_control1=0x7f05005d;
         public static final int collapseActionView=0x7f050014;
         public static final int contentPanel=0x7f050031;
         public static final int custom=0x7f050035;
@@ -1946,6 +1953,7 @@ containing a value of this type.
         public static final int ifRoom=0x7f050011;
         public static final int image=0x7f050028;
         public static final int img=0x7f05004f;
+        public static final int linear1=0x7f050050;
         public static final int listMode=0x7f050002;
         public static final int list_item=0x7f05002a;
         public static final int middle=0x7f050018;
@@ -1986,7 +1994,13 @@ containing a value of this type.
         public static final int topPanel=0x7f05002e;
         public static final int up=0x7f05001b;
         public static final int useLogo=0x7f050005;
-        public static final int wifi_control1=0x7f050051;
+        public static final int viewtexAge=0x7f05005b;
+        public static final int viewtextJobType=0x7f050053;
+        public static final int viewtextMobile=0x7f050059;
+        public static final int viewtextName=0x7f050051;
+        public static final int viewtextPay=0x7f050057;
+        public static final int viewtextPin=0x7f050055;
+        public static final int wifi_control1=0x7f05005e;
         public static final int withText=0x7f050013;
         public static final int wrap_content=0x7f050000;
     }
@@ -2047,13 +2061,18 @@ containing a value of this type.
         public static final int abc_select_dialog_material=0x7f030018;
         public static final int abc_simple_dropdown_hint=0x7f030019;
         public static final int activity_main=0x7f03001a;
-        public static final int select_dialog_item_material=0x7f03001b;
-        public static final int select_dialog_multichoice_material=0x7f03001c;
-        public static final int select_dialog_singlechoice_material=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
+        public static final int activity_search=0x7f03001b;
+        public static final int activity_user=0x7f03001c;
+        public static final int searchlist=0x7f03001d;
+        public static final int select_dialog_item_material=0x7f03001e;
+        public static final int select_dialog_multichoice_material=0x7f03001f;
+        public static final int select_dialog_singlechoice_material=0x7f030020;
+        public static final int support_simple_spinner_dropdown_item=0x7f030021;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
+        public static final int search=0x7f0c0001;
+        public static final int user=0x7f0c0002;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -2118,6 +2137,8 @@ containing a value of this type.
         public static final int action_settings=0x7f0a0013;
         public static final int app_name=0x7f0a0011;
         public static final int hello_world=0x7f0a0012;
+        public static final int title_activity_search=0x7f0a0014;
+        public static final int title_activity_user=0x7f0a0015;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0b0040;

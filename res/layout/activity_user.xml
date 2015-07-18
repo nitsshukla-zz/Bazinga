@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/viewtextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:ems="10"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="22dp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"	
+        android:layout_gravity="right"/>
+
+        <TextView
+        android:id="@+id/viewtextJobType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:ems="10"
+        android:text="Job Type"
+        android:textColor="#000000"
+        android:textSize="22dp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/JobType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type"	
+        android:layout_gravity="right"/>
+    
+        <TextView
+        android:id="@+id/viewtextPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:ems="10"
+        android:text="PinCode: "
+        android:textColor="#000000"
+        android:textSize="22dp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/Pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pin"	
+        android:layout_gravity="right"/>
+    
+        <TextView
+        android:id="@+id/viewtextPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:ems="10"
+        android:text="Pay"
+        android:textColor="#000000"
+        android:textSize="22dp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/Pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pay"	
+        android:layout_gravity="right"/>
+    
+        <TextView
+        android:id="@+id/viewtextMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:ems="10"
+        android:text="Mobile No. "
+        android:textColor="#000000"
+        android:textSize="22dp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/Mob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""	
+        android:layout_gravity="right"/>
+    
+        <TextView
+        android:id="@+id/viewtexAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:ems="10"
+        android:text="Age"
+        android:textColor="#000000"
+        android:textSize="22dp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"	
+        android:layout_gravity="right"/>
+    
+</LinearLayout>
